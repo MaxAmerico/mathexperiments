@@ -1,31 +1,32 @@
 import math
 
-print('Segue o modelo da equação de segundo grau abaixo:')
-print('ax²+bx+c=0')
-print('Por favor, troque os valores acima pelos valores que está em sua questão logo depois da pergunta')
-prossiga = input('Podemos prosseguir?(S/N)').upper()
-if prossiga == 'N':
-    print('Reinicie seu programa caso tenha mudado de ideia')
+print("Here is the quadratic equation model below:")
+print("ax² + bx + c = 0")
+print("Please replace the values above with the ones from your problem right after the prompt.")
+proceed = input("Can we proceed? (Y/N) ").upper()
+
+if proceed == "N":
+    print("Restart the program if you change your mind.")
 
 else:
-  while True:
-    a = float(input('Qual é o valor do A?'))
-    b = float(input('Qual é o valor do B?'))
-    c = float(input('Qual é o valor do C?'))
+    while True:
+        a = float(input("What is the value of A? "))
+        b = float(input("What is the value of B? "))
+        c = float(input("What is the value of C? "))
 
-    delta = (b**2) - (4*a*c)
-    if delta <0:
-           print('Delta negativo, não há raízes reais')
-    else:       
-       
+        delta = (b ** 2) - (4 * a * c)
 
-        bhaskaramais = (-b + math.sqrt(delta)) / (2*a)
-        bhaskaramenos = (-b - math.sqrt(delta)) / (2*a)
-        
-        print(f'Os resultados da raiz são: x1 = {bhaskaramenos} e x2 = {bhaskaramais}')
+        if delta < 0:
+            print("Negative discriminant, there are no real roots.")
+        else:
+            x1 = (-b + math.sqrt(delta)) / (2 * a)
+            x2 = (-b - math.sqrt(delta)) / (2 * a)
 
-    pergunta = input('Você deseja calcular outras equações?(S/N)').upper()
-    if pergunta == 'N':
-        break
-    else:
-       print('- - -')
+            print(f"The roots are: x1 = {x2} and x2 = {x1}")
+
+        question = input("Do you want to calculate other equations? (Y/N) ").upper()
+        if question == "N":
+            break
+        else:
+            print("- - -")
+
