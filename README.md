@@ -8,7 +8,7 @@
 ## Introduction
 
 I created this repository as objective to create ways to study physics and math developing codes that solves
-the math/physics questions as well as financial math
+the math/physics questions
 
 ### Current challenge
 
