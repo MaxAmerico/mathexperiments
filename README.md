@@ -1,26 +1,35 @@
-<p align="center">
-  <img src="https://s2.glbimg.com/NNbJWCWpPiTmrRTP6Vq_NWVXZw8=/e.glbimg.com/og/ed/f/original/2018/10/31/math-1500720_1920.jpg" alt="Logo do Projeto" width="400">
-</p>
+# Math & Science Experiments 🧪
 
+Welcome to my personal gallery of mathematical and scientific simulations! This repository is a collection of Python programs I build as I learn new concepts in school and during my self-study sessions.
 
+## 📌 About the Project
 
+I am currently a 9th-grade student(in brazil, here we learn about Pythagorean theorem, quadratic equation and etc) (Middle School), and this project serves as my digital laboratory. Every time I learn a new formula or concept in Math, Physics, or Chemistry, I try to translate it into code.
 
-## Introduction
+The goal is to start with fundamental logic and evolve into complex systems over time, especially during my school breaks when I focus on advanced topics.
 
-I created this repository as objective to create ways to study physics and math developing codes that solves
-the math/physics questions
+## 📂 Repository Structure
 
-### Current challenge
+The project is organized by subjects to keep things easy to find:
 
-Create a system that solves problems involving quadratic equations
+* **/Mathematics**: Calculations for quadratic equations, geometry, and arithmetic logic.
+* **/Physics**: (Coming soon) Simulations for motion, forces, and energy.
+* **/Chemistry**: (Coming soon) Tools for periodic table data and reaction balancing.
 
-- - - 
+## 🛠️ Built With
 
-<p align="center">
-  <img src="https://www.uba.mg.leg.br/institucional-1/cac/enem/apostilas-enem/2019/fisica.png/image" alt="Logo do Projeto" width="400">
-</p>
+* **Python 3.x**
+* **Math Library** (Built-in)
+* *Planned for the future:* NumPy and Matplotlib for data visualization.
 
-Another science that involves math is the physics, soon I would to create system thats calcules variables involving
-it;
+## 🚀 How to Run
 
-- - -
+These are standalone scripts. You don't need to install complex dependencies (for now). To run an experiment, simply follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/MaxAmerico/mathexperiments.git](https://github.com/MaxAmerico/mathexperiments.git) Navigate to the folder:
+2. Navigate to the folder:
+   cd mathexperiments/Mathematics Clone the repository:
+3. Run the script:
+   python quadratic_equation.py   
