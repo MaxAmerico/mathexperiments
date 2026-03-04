@@ -20,15 +20,16 @@ else:
             #Here I want to set a system which you can see the negative roots
             print("Negative discriminant, there are no real roots.")
         else:
-            x1 = (-b + math.sqrt(delta)) / (2 * a)
-            x2 = (-b - math.sqrt(delta)) / (2 * a)
+            x1 = (-b - math.sqrt(delta)) / (2 * a)
+            x2 = (-b + math.sqrt(delta)) / (2 * a)
 
-            print(f"The roots are: x1 = {x2} and x2 = {x1}")
+            print(f"The roots are: x1 = {x1} and x2 = {x2}")
 
         question = input("Do you want to calculate other equations? (Y/N) ").upper()
         if question == "N":
             break
         else:
             print("- - -")
+
 
 
