@@ -13,7 +13,7 @@ The goal is to start with fundamental logic and evolve into complex systems over
 The project is organized by subjects to keep things easy to find:
 
 * **/Mathematics**: Calculations for quadratic equations, geometry, and arithmetic logic.
-* **/Physics**: (Coming soon) Simulations for motion, forces, and energy.
+* **/Physics**:  Calculations for motion, forces, and energy.
 * **/Chemistry**: (Coming soon) Tools for periodic table data and reaction balancing.
 
 ## 🛠️ Built With
