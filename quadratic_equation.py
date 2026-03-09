@@ -1,15 +1,18 @@
 import math
+import cmath
 #Functions
 def calcule_quadratic(a,b,c):
         delta = (b ** 2) - (4 * a * c)
 
         if delta < 0:
             #Here I want to set a system which you can see the negative roots
-            return print("Negative discriminant, there are no real roots.")
+            x1 = (-b - cmath.sqrt(delta)) / (2 * a)
+            x2 = (-b + cmath.sqrt(delta)) / (2 * a)
+            print(f'The complex roots are: x1 = {x1} and x2 = {x2}')
         else:
             x1 = (-b - math.sqrt(delta)) / (2 * a)
             x2 = (-b + math.sqrt(delta)) / (2 * a)
-            return  print(f"The roots are: x1 = {x1} and x2 = {x2}")
+            print(f"The roots are: x1 = {x1} and x2 = {x2}")
 
 
 def main_code():
